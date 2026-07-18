@@ -1,7 +1,7 @@
 class InsertionSort
 {
     public static void main(String[] args) {
-        int[] nums = {3,5,6,4,8,9,10,7,1};
+        int[] nums = {3,1,6,2,4,8,7};
         System.out.print("Insertion Sort, Before Sorting:  ");
         for(int n : nums)
         {
