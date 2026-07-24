@@ -21,7 +21,7 @@ public class SecondLargest {
         return second;
     }
     public static void main(String[] args) {
-        int[] nums = {55, 32, 97, -55, 45, 32, 88, 21};
+        int[] nums = {97, 55, 32, 97, -55, 45, 32, 88, 21};
 
         System.out.print("Input Array: ");
         for(int n : nums)
