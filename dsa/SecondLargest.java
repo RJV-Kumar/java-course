@@ -2,8 +2,8 @@ public class SecondLargest {
 
     public int findSecondLargest(int[] nums)
     {
-        int largest = 0;
-        int second = 0;
+        int largest = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
 
         for(int i = 0; i < nums.length; i++)
         {
